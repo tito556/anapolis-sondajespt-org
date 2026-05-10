@@ -1,0 +1,51 @@
+# Sondajespt — Anapolis
+
+> Geotechnical engineering services in Anapolis, Brasil.
+
+## Services
+- [Ancoragens](https://anapolis.sondajespt.org/ancoragens/)
+- [Cbr Viario](https://anapolis.sondajespt.org/cbr-viario/)
+- [Colunas Brita](https://anapolis.sondajespt.org/colunas-brita/)
+- [Densidade Cone Areia](https://anapolis.sondajespt.org/densidade-cone-areia/)
+- [Ensaio Cpt](https://anapolis.sondajespt.org/ensaio-cpt/)
+- [Ensaios Proctor](https://anapolis.sondajespt.org/ensaios-proctor/)
+- [Escavacoes](https://anapolis.sondajespt.org/escavacoes/)
+- [Escavacoes Profundas](https://anapolis.sondajespt.org/escavacoes-profundas/)
+- [Estabilidade Taludes](https://anapolis.sondajespt.org/estabilidade-taludes/)
+- [Estacas](https://anapolis.sondajespt.org/estacas/)
+- [Fundacoes](https://anapolis.sondajespt.org/fundacoes/)
+- [Geotecnia Viaria](https://anapolis.sondajespt.org/geotecnia-viaria/)
+- [Granulometria](https://anapolis.sondajespt.org/granulometria/)
+- [Injecoes](https://anapolis.sondajespt.org/injecoes/)
+- [Investigacao](https://anapolis.sondajespt.org/investigacao/)
+- [Isolamento Sismico](https://anapolis.sondajespt.org/isolamento-sismico/)
+- [Lab In Situ](https://anapolis.sondajespt.org/lab-in-situ/)
+- [Laboratorio](https://anapolis.sondajespt.org/laboratorio/)
+- [Limites Atterberg](https://anapolis.sondajespt.org/limites-atterberg/)
+- [Liquefacao](https://anapolis.sondajespt.org/liquefacao/)
+- [Masw](https://anapolis.sondajespt.org/masw/)
+- [Melhoramento](https://anapolis.sondajespt.org/melhoramento/)
+- [Microzoneamento Sismico](https://anapolis.sondajespt.org/microzoneamento-sismico/)
+- [Monitoramento Escavacoes](https://anapolis.sondajespt.org/monitoramento-escavacoes/)
+- [Muros Contencao](https://anapolis.sondajespt.org/muros-contencao/)
+- [Pavimento Flexivel](https://anapolis.sondajespt.org/pavimento-flexivel/)
+- [Pavimento Rigido](https://anapolis.sondajespt.org/pavimento-rigido/)
+- [Permeabilidade In Situ](https://anapolis.sondajespt.org/permeabilidade-in-situ/)
+- [Pocos Inspecao](https://anapolis.sondajespt.org/pocos-inspecao/)
+- [Radiers](https://anapolis.sondajespt.org/radiers/)
+- [Refracao Sismica](https://anapolis.sondajespt.org/refracao-sismica/)
+- [Resistividade](https://anapolis.sondajespt.org/resistividade/)
+- [Sapatas](https://anapolis.sondajespt.org/sapatas/)
+- [Sismica](https://anapolis.sondajespt.org/sismica/)
+- [Sondagens Spt](https://anapolis.sondajespt.org/sondagens-spt/)
+- [Taludes](https://anapolis.sondajespt.org/taludes/)
+- [Triaxial](https://anapolis.sondajespt.org/triaxial/)
+- [Tuneis Solo Mole](https://anapolis.sondajespt.org/tuneis-solo-mole/)
+- [Vibrocompactacao](https://anapolis.sondajespt.org/vibrocompactacao/)
+
+## Contact
+- Website: https://anapolis.sondajespt.org/
+
+## About
+This site provides geotechnical engineering services in Anapolis, Brasil.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
