@@ -71,14 +71,31 @@ table th{background:#141414;color:#FFF;text-align:left;padding:.7rem 1rem;font-s
 .hero .tagline{font-size:1rem;opacity:.92;margin-bottom:1.5rem;max-width:560px}
 .logo-text .sub{font-size:1.05rem;color:#B08D4A}
 .nav{display:flex;gap:1rem;align-items:center}
-.dd a{padding:.5rem 1.2rem;color:#141414;font-size:.85rem;display:block;white-space:normal}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
+.dd a{padding:.5rem 1.2rem;color:#141414;font-size:.85rem;display:block;white-space:normal}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style id="minimal-fix-v5">
+/* Sticky para navbar específicos (NO header.hero) */
+.topbar, .navbar, .header-top, .main-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1010 !important;
+}
+header.hero, .hero { position: relative !important; }
+/* Dropdowns por encima del hero */
+.dd, .has-dd .dd, .nav-item .dd {
+  z-index: 1100 !important;
+}
+/* Leaflet contained */
+.leaflet-pane { z-index: 400 !important; }
+.leaflet-control { z-index: 800 !important; }
+.leaflet-container { z-index: 1 !important; }
+</style>
+</head><body>
 
 <div class="topbar">
     <div class="logo-area">
         <div class="logo-text"><div class="main">SONDAJES SPT</div><div class="sub">ANAPOLIS</div></div>
     </div>
     <div class="nav">
-        <div class="nav-item has-dd"><a href="/investigacao/" class="nav-cat-link" style="color:inherit;text-decoration:none">Exploração</a> <span>▾</span><div class="dd"><a href="/ensaio-cpt/">Ensaio CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/lab-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">Ensaios in situ</a> <span>▾</span><div class="dd"><a href="/densidade-cone-areia/">Ensaio de densidade in situ (método do cone de areia)</a></div></div><div class="nav-item has-dd"><a href="/laboratorio/" class="nav-cat-link" style="color:inherit;text-decoration:none">Laboratório</a> <span>▾</span><div class="dd"><a href="/limites-atterberg/">Limites de Atterberg</a></div></div><div class="nav-item has-dd"><a href="/fundacoes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Fundações</a> <span>▾</span><div class="dd"><a href="/estacas/">Projeto de fundações em estacas</a></div></div><div class="nav-item has-dd"><a href="/taludes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Taludes e muros</a> <span>▾</span><div class="dd"><a href="/estabilidade-taludes/">Análise de estabilidade de taludes</a><a href="/ancoragens/">Projeto de ancoragens ativas/passivas</a><a href="/muros-contencao/">Projeto de muros de contenção</a></div></div><div class="nav-item has-dd"><a href="/melhoramento/" class="nav-cat-link" style="color:inherit;text-decoration:none">Melhoramento</a> <span>▾</span><div class="dd"><a href="/colunas-brita/">Projeto de colunas de brita (stone columns)</a><a href="/vibrocompactacao/">Projeto de vibrocompactação</a></div></div><div class="nav-item has-dd"><a href="/escavacoes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Escavações subterrâneas</a> <span>▾</span><div class="dd"><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações</a></div></div><div class="nav-item has-dd"><a href="/geotecnia-viaria/" class="nav-cat-link" style="color:inherit;text-decoration:none">Geotecnia viária</a> <span>▾</span><div class="dd"><a href="/pavimento-flexivel/">Projeto de pavimento flexível</a><a href="/cbr-viario/">Estudo CBR para projeto viário</a></div></div><div class="nav-item has-dd"><a href="/sismica/" class="nav-cat-link" style="color:inherit;text-decoration:none">Sísmica</a> <span>▾</span><div class="dd"><a href="/liquefacao/">Análise de liquefação de solos</a><a href="/isolamento-sismico/">Projeto de isolamento sísmico de base</a><a href="/microzoneamento-sismico/">Microzoneamento sísmico</a></div></div>
+        <div class="nav-item has-dd"><a href="/investigacao/" class="nav-cat-link" style="color:inherit;text-decoration:none">Exploração</a> <span>▾</span><div class="dd"><a href="/ensaio-cpt/">Ensaio CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/lab-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">Ensaios in situ</a> <span>▾</span><div class="dd"><a href="/densidade-cone-areia/">Ensaio de densidade in situ (método do cone de areia)</a></div></div><div class="nav-item has-dd"><a href="/laboratorio/" class="nav-cat-link" style="color:inherit;text-decoration:none">Laboratório</a> <span>▾</span><div class="dd"><a href="/limites-atterberg/">Limites de Atterberg</a></div></div><div class="nav-item has-dd"><a href="/fundacoes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Fundações</a> <span>▾</span><div class="dd"><a href="/estacas/">Projeto de fundações em estacas</a></div></div><div class="nav-item has-dd"><a href="/taludes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Taludes e muros</a> <span>▾</span><div class="dd"><a href="/estabilidade-taludes/">Análise de estabilidade de taludes</a><a href="/ancoragens/">Projeto de ancoragens ativas/passivas</a><a href="/muros-contencao/">Projeto de muros de contenção</a></div></div><div class="nav-item has-dd"><a href="/melhoramento/" class="nav-cat-link" style="color:inherit;text-decoration:none">Melhoramento</a> <span>▾</span><div class="dd"><a href="/colunas-brita/">Projeto de colunas de brita (stone columns)</a><a href="/vibrocompactacao/">Projeto de vibrocompactação</a></div></div><div class="nav-item has-dd"><a href="/escavacoes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Escavações</a> <span>▾</span><div class="dd"><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações</a></div></div><div class="nav-item has-dd"><a href="/geotecnia-viaria/" class="nav-cat-link" style="color:inherit;text-decoration:none">Geotecnia viária</a> <span>▾</span><div class="dd"><a href="/pavimento-flexivel/">Projeto de pavimento flexível</a><a href="/cbr-viario/">Estudo CBR para projeto viário</a></div></div><div class="nav-item has-dd"><a href="/sismica/" class="nav-cat-link" style="color:inherit;text-decoration:none">Sísmica</a> <span>▾</span><div class="dd"><a href="/liquefacao/">Análise de liquefação de solos</a><a href="/isolamento-sismico/">Projeto de isolamento sísmico de base</a><a href="/microzoneamento-sismico/">Microzoneamento sísmico</a></div></div>
     </div>
 </div>
 
@@ -105,9 +122,9 @@ table th{background:#141414;color:#FFF;text-align:left;padding:.7rem 1rem;font-s
         <div class="svc-card">
             <div class="card-img" style="background-image:url('/img/tuneles-suelo-blando-1.webp')"></div>
             <div class="card-body">
-                <h3>Escavações subterrâneas</h3>
+                <h3>Escavações</h3>
                 <div class="card-links"><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole ›</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas ›</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações ›</a></div>
-                <a class="card-viewall" href="#excavaciones-subterraneo">VER TUDO ESCAVAÇÕES SUBTERRÂNEAS ›</a>
+                <a class="card-viewall" href="#excavaciones-subterraneo">VER TUDO ESCAVAÇÕES ›</a>
             </div>
         </div>
         <div class="svc-card">
@@ -130,7 +147,7 @@ table th{background:#141414;color:#FFF;text-align:left;padding:.7rem 1rem;font-s
       </div>
     </section><section class="block"><div class="container"><h2>Normas aplicáveis</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
-<p>ABNT NBR 6484:2020 (Sondagens SPT — referência para investigação prévia), ABNT NBR 6122:2019 (Projeto e Execução de Fundações — critérios para solos melhorados), ABNT NBR 16920-2:2021 (Muros e taludes em solos reforçados — aplicável à etapa de melhoramento), FHWA-NHI-10-025 (Ground Improvement Methods — referência técnica internacional)</p></div></section>
+<p>ABNT NBR 6484:2020 (Sondagens SPT — referência para investigação prévia), ABNT NBR 6122:2019 (Projeto e Execução de Fundações — critérios para solos melhorados), ABNT NBR 16920-2:2021 (Muros e taludes em solos reforçados — aplicável à etapa de melhoramento), FHWA-NHI-10-025 (Improvement Methods — referência técnica internacional)</p></div></section>
 
 <section class="block tint"><div class="container"><h2>Parâmetros técnicos</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #B08D4A;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#B08D4A;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parâmetro</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valor típico</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Profundidade de tratamento típica</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">3 a 15 m (variável conforme SPT)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Malha de pontos</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Triangular ou quadrada, 1,8 a 3,5 m</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Frequência do vibrador</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">30 a 50 Hz (ajustável ao tipo de solo)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Diâmetro da coluna compactada</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0,6 a 1,2 m (função do vibrador)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Critério de parada</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Resistência de ponta ou consumo de energia</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Controle pós-serviço</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">CPT, DMT ou SPT com comparativo pré/pós</td></tr></tbody></table></div></div></section>
 
@@ -149,7 +166,7 @@ table th{background:#141414;color:#FFF;text-align:left;padding:.7rem 1rem;font-s
         <link rel="stylesheet" href="/css/leaflet.css">
         <script src="/js/leaflet.js"></script>
         <script>
-        (function(){
+(function(){
           var m=L.map("map_4b2a51",{zoomControl:true,attributionControl:true}).setView([-16.3332828,-48.9525756],11);
           L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{
             attribution:"&copy; OpenStreetMap colaboradores &copy; CARTO",maxZoom:19,subdomains:"abcd"

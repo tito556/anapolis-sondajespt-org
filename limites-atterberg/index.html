@@ -71,14 +71,31 @@ table th{background:#141414;color:#FFF;text-align:left;padding:.7rem 1rem;font-s
 .hero .tagline{font-size:1rem;opacity:.92;margin-bottom:1.5rem;max-width:560px}
 .logo-text .sub{font-size:1.05rem;color:#B08D4A}
 .nav{display:flex;gap:1rem;align-items:center}
-.dd a{padding:.5rem 1.2rem;color:#141414;font-size:.85rem;display:block;white-space:normal}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
+.dd a{padding:.5rem 1.2rem;color:#141414;font-size:.85rem;display:block;white-space:normal}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style id="minimal-fix-v5">
+/* Sticky para navbar específicos (NO header.hero) */
+.topbar, .navbar, .header-top, .main-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1010 !important;
+}
+header.hero, .hero { position: relative !important; }
+/* Dropdowns por encima del hero */
+.dd, .has-dd .dd, .nav-item .dd {
+  z-index: 1100 !important;
+}
+/* Leaflet contained */
+.leaflet-pane { z-index: 400 !important; }
+.leaflet-control { z-index: 800 !important; }
+.leaflet-container { z-index: 1 !important; }
+</style>
+</head><body>
 
 <div class="topbar">
     <div class="logo-area">
         <div class="logo-text"><div class="main">SONDAJES SPT</div><div class="sub">ANAPOLIS</div></div>
     </div>
     <div class="nav">
-        <div class="nav-item has-dd"><a href="/investigacao/" class="nav-cat-link" style="color:inherit;text-decoration:none">Exploração</a> <span>▾</span><div class="dd"><a href="/ensaio-cpt/">Ensaio CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/lab-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">Ensaios in situ</a> <span>▾</span><div class="dd"><a href="/densidade-cone-areia/">Ensaio de densidade in situ (método do cone de areia)</a></div></div><div class="nav-item has-dd"><a href="/laboratorio/" class="nav-cat-link" style="color:inherit;text-decoration:none">Laboratório</a> <span>▾</span><div class="dd"><a href="/limites-atterberg/">Limites de Atterberg</a></div></div><div class="nav-item has-dd"><a href="/fundacoes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Fundações</a> <span>▾</span><div class="dd"><a href="/estacas/">Projeto de fundações em estacas</a></div></div><div class="nav-item has-dd"><a href="/taludes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Taludes e muros</a> <span>▾</span><div class="dd"><a href="/estabilidade-taludes/">Análise de estabilidade de taludes</a><a href="/ancoragens/">Projeto de ancoragens ativas/passivas</a><a href="/muros-contencao/">Projeto de muros de contenção</a></div></div><div class="nav-item has-dd"><a href="/melhoramento/" class="nav-cat-link" style="color:inherit;text-decoration:none">Melhoramento</a> <span>▾</span><div class="dd"><a href="/colunas-brita/">Projeto de colunas de brita (stone columns)</a><a href="/vibrocompactacao/">Projeto de vibrocompactação</a></div></div><div class="nav-item has-dd"><a href="/escavacoes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Escavações subterrâneas</a> <span>▾</span><div class="dd"><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações</a></div></div><div class="nav-item has-dd"><a href="/geotecnia-viaria/" class="nav-cat-link" style="color:inherit;text-decoration:none">Geotecnia viária</a> <span>▾</span><div class="dd"><a href="/pavimento-flexivel/">Projeto de pavimento flexível</a><a href="/cbr-viario/">Estudo CBR para projeto viário</a></div></div><div class="nav-item has-dd"><a href="/sismica/" class="nav-cat-link" style="color:inherit;text-decoration:none">Sísmica</a> <span>▾</span><div class="dd"><a href="/liquefacao/">Análise de liquefação de solos</a><a href="/isolamento-sismico/">Projeto de isolamento sísmico de base</a><a href="/microzoneamento-sismico/">Microzoneamento sísmico</a></div></div>
+        <div class="nav-item has-dd"><a href="/investigacao/" class="nav-cat-link" style="color:inherit;text-decoration:none">Exploração</a> <span>▾</span><div class="dd"><a href="/ensaio-cpt/">Ensaio CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/lab-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">Ensaios in situ</a> <span>▾</span><div class="dd"><a href="/densidade-cone-areia/">Ensaio de densidade in situ (método do cone de areia)</a></div></div><div class="nav-item has-dd"><a href="/laboratorio/" class="nav-cat-link" style="color:inherit;text-decoration:none">Laboratório</a> <span>▾</span><div class="dd"><a href="/limites-atterberg/">Limites de Atterberg</a></div></div><div class="nav-item has-dd"><a href="/fundacoes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Fundações</a> <span>▾</span><div class="dd"><a href="/estacas/">Projeto de fundações em estacas</a></div></div><div class="nav-item has-dd"><a href="/taludes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Taludes e muros</a> <span>▾</span><div class="dd"><a href="/estabilidade-taludes/">Análise de estabilidade de taludes</a><a href="/ancoragens/">Projeto de ancoragens ativas/passivas</a><a href="/muros-contencao/">Projeto de muros de contenção</a></div></div><div class="nav-item has-dd"><a href="/melhoramento/" class="nav-cat-link" style="color:inherit;text-decoration:none">Melhoramento</a> <span>▾</span><div class="dd"><a href="/colunas-brita/">Projeto de colunas de brita (stone columns)</a><a href="/vibrocompactacao/">Projeto de vibrocompactação</a></div></div><div class="nav-item has-dd"><a href="/escavacoes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Escavações</a> <span>▾</span><div class="dd"><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações</a></div></div><div class="nav-item has-dd"><a href="/geotecnia-viaria/" class="nav-cat-link" style="color:inherit;text-decoration:none">Geotecnia viária</a> <span>▾</span><div class="dd"><a href="/pavimento-flexivel/">Projeto de pavimento flexível</a><a href="/cbr-viario/">Estudo CBR para projeto viário</a></div></div><div class="nav-item has-dd"><a href="/sismica/" class="nav-cat-link" style="color:inherit;text-decoration:none">Sísmica</a> <span>▾</span><div class="dd"><a href="/liquefacao/">Análise de liquefação de solos</a><a href="/isolamento-sismico/">Projeto de isolamento sísmico de base</a><a href="/microzoneamento-sismico/">Microzoneamento sísmico</a></div></div>
     </div>
 </div>
 
@@ -105,9 +122,9 @@ table th{background:#141414;color:#FFF;text-align:left;padding:.7rem 1rem;font-s
         <div class="svc-card">
             <div class="card-img" style="background-image:url('/img/tuneles-suelo-blando-1.webp')"></div>
             <div class="card-body">
-                <h3>Escavações subterrâneas</h3>
+                <h3>Escavações</h3>
                 <div class="card-links"><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole ›</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas ›</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações ›</a></div>
-                <a class="card-viewall" href="#excavaciones-subterraneo">VER TUDO ESCAVAÇÕES SUBTERRÂNEAS ›</a>
+                <a class="card-viewall" href="#excavaciones-subterraneo">VER TUDO ESCAVAÇÕES ›</a>
             </div>
         </div>
         <div class="svc-card">
@@ -139,7 +156,8 @@ table th{background:#141414;color:#FFF;text-align:left;padding:.7rem 1rem;font-s
 <details><summary>Qual o custo médio para determinar os Limites de Atterberg em Anápolis?</summary><p>O investimento para a bateria completa de ensaios de consistência (LL, LP e IP) em Anápolis gira em torno de $100.000, variando conforme a quantidade de amostras e a urgência na emissão do relatório.</p></details><details><summary>Como a altitude de Anápolis influencia os resultados dos Limites de Atterberg?</summary><p>A altitude de cerca de 1000 metros não influencia diretamente o ensaio, que é feito em laboratório com temperatura controlada. Contudo, o clima tropical de altitude de Anápolis favorece a formação de solos lateríticos, que apresentam comportamento atípico na Carta de Plasticidade, com IP baixo, mas LL elevado, exigindo interpretação técnica especializada.</p></details><details><summary>Os ensaios seguem a norma brasileira?</summary><p>Sim, todos os nossos procedimentos seguem rigorosamente a ABNT NBR 6459:2016 para o Limite de Liquidez e a ABNT NBR 7180:2016 para o Limite de Plasticidade. Utilizamos o aparelho de Casagrande calibrado e o gabarito de 3 mm para a moldagem dos cilindros.</p></details></div></section>
 
 
-    <section class="block map-block" style="padding:3rem 1.5rem">
+    <section class="block video-block" style="padding:2rem 1.5rem"><div style="max-width:720px;margin:0 auto"><h2 style="margin-bottom:1rem;font-weight:700;font-size:1.4rem">Vídeo explicativo</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/SWfI8tP2QvU" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div></section>
+<section class="block map-block" style="padding:3rem 1.5rem">
       <div style="max-width:1200px;margin:0 auto">
         <h2 style="margin-bottom:.8rem;font-weight:700">Localização e área de serviço</h2>
         <p style="margin-bottom:1rem;color:#555">Atendemos projetos em Anapolis e sua zona metropolitana.</p>
@@ -149,7 +167,7 @@ table th{background:#141414;color:#FFF;text-align:left;padding:.7rem 1rem;font-s
         <link rel="stylesheet" href="/css/leaflet.css">
         <script src="/js/leaflet.js"></script>
         <script>
-        (function(){
+(function(){
           var m=L.map("map_4b2a51",{zoomControl:true,attributionControl:true}).setView([-16.3332828,-48.9525756],11);
           L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{
             attribution:"&copy; OpenStreetMap colaboradores &copy; CARTO",maxZoom:19,subdomains:"abcd"
@@ -163,6 +181,6 @@ table th{background:#141414;color:#FFF;text-align:left;padding:.7rem 1rem;font-s
       </div>
     </section>
 
-<section class="block video-block" style="padding:2rem 1.5rem"><div style="max-width:720px;margin:0 auto"><h2 style="margin-bottom:1rem;font-weight:700;font-size:1.4rem">Vídeo explicativo</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/SWfI8tP2QvU" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div></section><footer style="background:linear-gradient(135deg,#141414,#B08D4A22);color:#FFF;padding:3rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h3 style="font-size:1.4rem;margin:0 0 .5rem;color:#FFF">Pronto para seu projeto?</h3><p style="margin:0 0 1.5rem;color:rgba(255,255,255,.8)">Anapolis, Brazil</p><a href="mailto:contato@sondajespt.org" style="display:inline-block;background:#B08D4A;color:#FFF !important;padding:.9rem 2.2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.25)">Solicite um orçamento — contato@sondajespt.org</a><p style="margin:1.8rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">© 2026 Sondajes SPT · Todos os direitos reservados</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referências:</strong> <a href="https://www.abnt.org.br/" rel="nofollow noopener" target="_blank">Normas ABNT</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a></div><div class="updated-info" data-updated="2026-03-06" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última atualização: 2026-03-06</div></footer>
+<footer style="background:linear-gradient(135deg,#141414,#B08D4A22);color:#FFF;padding:3rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h3 style="font-size:1.4rem;margin:0 0 .5rem;color:#FFF">Pronto para seu projeto?</h3><p style="margin:0 0 1.5rem;color:rgba(255,255,255,.8)">Anapolis, Brazil</p><a href="mailto:contato@sondajespt.org" style="display:inline-block;background:#B08D4A;color:#FFF !important;padding:.9rem 2.2rem;border-radius:8px;text-decoration:none;font-weight:700;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.25)">Solicite um orçamento — contato@sondajespt.org</a><p style="margin:1.8rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">© 2026 Sondajes SPT · Todos os direitos reservados</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referências:</strong> <a href="https://www.abnt.org.br/" rel="nofollow noopener" target="_blank">Normas ABNT</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a></div><div class="updated-info" data-updated="2026-03-06" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última atualização: 2026-03-06</div></footer>
 
 </body></html>
