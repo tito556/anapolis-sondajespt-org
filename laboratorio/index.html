@@ -111,7 +111,7 @@ header nav a,.menu a{font-size:.78rem !important}
 }
 </style>
 <style id="layout-defensive">
-html,body{overflow-x:hidden;max-width:100vw}
+body{overflow-x:clip;max-width:100vw}
 body>*{max-width:100vw}
 @media (min-width:901px){
   aside{position:relative}
@@ -122,6 +122,62 @@ body>*{max-width:100vw}
   aside{width:100% !important;position:static !important;height:auto !important}
   .navbar{flex-wrap:wrap}
 }
+</style>
+<style id="navbar-fixed-override">
+nav.navbar,.header-top,.main-header{position:fixed !important;top:0 !important;left:0 !important;right:0 !important;z-index:1010 !important}
+body{padding-top:60px}
+.hero,.hero-inner,header.hero{padding-top:1rem !important}
+@media (max-width:900px){body{padding-top:90px}}
+</style>
+<style id="sidebar-hover-fix-v2">
+/* Adaptativo: hover preserva color heredado (white en dark sidebar, dark en light) */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+/* Bg sutil que funciona en cualquier fondo */
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+aside .cat-sub-wrap a:hover{background:rgba(127,127,127,.08) !important}
+</style>
+<style id="cat-toggle-no-box">
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+.cat-arrow{display:inline-block}
+</style>
+<style id="nav-arrow-no-box">
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+</style>
+<style id="post-fixes-v2">
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+</style>
+<style id="nav-fix-v3">
+nav.navbar, header nav, .nav-bar, .top-nav { font-size: 1rem !important; }
+nav.navbar a, header nav a, .nav-bar a, .top-nav a, .nav-cat-link, .nav-item a { font-size: 1rem !important; color: #FFFFFF !important; font-weight: 500 !important; }
+nav.navbar a:hover, header nav a:hover, .nav-cat-link:hover { color: #FCD34D !important; text-decoration: underline; }
+nav[aria-label="breadcrumb"], .crumb, .breadcrumb { color: rgba(255,255,255,.85) !important; font-size: .82rem !important; }
+nav[aria-label="breadcrumb"] a, .crumb a, .breadcrumb a { color: #FFFFFF !important; text-decoration: underline; font-weight: 600; }
+nav[aria-label="breadcrumb"] a:hover, .crumb a:hover { color: #FCD34D !important; }
+.crumb a[href="/"], .breadcrumb a[href="/"], a.home-link { color: #FFFFFF !important; }
+.brand-name, .logo-text, .main, .brand { color: #FFFFFF !important; }
 </style>
 </head><body>
 
@@ -145,8 +201,6 @@ body>*{max-width:100vw}
 <p>O laboratório de geotecnia em Anápolis é o núcleo analítico que transforma amostras indeformadas e deformadas, coletadas durante a fase de <a href="/investigacao/">exploração geotécnica</a>, em parâmetros de resistência, compressibilidade e permeabilidade. A região, marcada por perfis de solos tropicais profundos oriundos da alteração de rochas do Complexo Granulítico Anápolis-Itauçu, exige uma caracterização que vá além da simples classificação tátil-visual, seguindo rigorosamente as prescrições da ABNT NBR 6457 para preparação de amostras e da NBR 6502 para terminologia. É aqui que se define a real vocação do solo para suportar <a href="/fundacoes/">fundações</a> ou a necessidade de estabilização para obras de contenção.</p>
 <p>A metodologia aplicada segue um fluxo normatizado que integra os ensaios de campo, como o <a href="/ensaio-cpt/">ensaio CPT</a>, com uma bateria de análises físicas e mecânicas. A caracterização começa com a análise granulométrica conjunta (peneiramento e sedimentação – ABNT NBR 7181), essencial para definir a curva granulométrica dos siltes argilosos e areias siltosas típicas do município. Em paralelo, determinam-se os <a href="/limites-atterberg/">limites de Atterberg</a> (NBR 6459 e NBR 7180) para obtenção do índice de plasticidade, correlacionando-o diretamente com a atividade da fração argila. A resistência ao cisalhamento é aferida por meio de ensaios de compressão triaxial (NBR 12770) e cisalhamento direto, enquanto a compressibilidade é investigada pelo ensaio de adensamento unidimensional (NBR 12007), fornecendo o índice de compressão e a tensão de pré-adensamento que guiam as previsões de recalque para qualquer <a href="/estacas/">projeto de fundações em estacas</a>.</p>
 <p>Os projetos típicos em Anápolis, desde galpões logísticos no Distrito Agroindustrial (DAIA) até condomínios verticais no setor central, demandam campanhas de laboratório específicas. Em obras de <a href="/taludes/">taludes e muros</a> de arrimo, a determinação da envoltória de resistência em termos de tensões efetivas é crítica para a retroanálise de estabilidade. Já para aterros compactados, o ensaio de Proctor (NBR 7182) e o Índice de Suporte Califórnia (CBR) são obrigatórios para validar a camada final de terraplenagem. A interação entre o resultado de penetração do <a href="/lab-in-situ/">ensaio in situ</a> e o módulo de elasticidade obtido em laboratório permite calibrar modelos constitutivos avançados, eliminando empirismos que oneram a estrutura ou comprometem a segurança.</p>
-<img src="/img/limites-atterberg-1.webp" alt="Laboratório em Anapolis" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
-
 <p>O processo se inicia com a coleta criteriosa de amostras em sondagens mistas ou poços, seguida pelo transporte imediato ao laboratório para preservar a umidade natural. Os entregáveis incluem relatórios técnicos com planilhas de cálculo, gráficos de ruptura e curvas tensão-deformação</p></div></section>
 <section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Serviços disponíveis</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../limites-atterberg/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Limites de Atterberg</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section>
 <section class="block mid-cta-028c-028c" style="padding:2rem 0">
@@ -181,7 +235,8 @@ body>*{max-width:100vw}
           L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{
             attribution:"&copy; OpenStreetMap colaboradores &copy; CARTO",maxZoom:19,subdomains:"abcd"
           }).addTo(m);
-          L.circle([-16.3332828,-48.9525756],{radius:5000,color:'#171717',weight:2,fillColor:'#404040',fillOpacity:0.18}).addTo(m).bindPopup("Anapolis");
+          L.marker([-16.3332828,-48.9525756],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36],popupAnchor:[0,-32]})}).addTo(m);
+L.circle([-16.3332828,-48.9525756],{radius:5000,color:'#171717',weight:2,fillColor:'#404040',fillOpacity:0.18}).addTo(m).bindPopup("Anapolis");
         })();
         </script>
         <div style="margin-top:.5rem;font-size:.78rem;color:#888;text-align:center">
