@@ -2,200 +2,248 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap-0.9">
   <url>
     <loc>https://anapolis.sondajespt.org/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/muros-contencao</loc>
-    <lastmod>2026-03-05</lastmod>
+    <loc>https://anapolis.sondajespt.org/ancoragens/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/microzoneamento-sismico</loc>
-    <lastmod>2026-03-15</lastmod>
+    <loc>https://anapolis.sondajespt.org/cbr-viario/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/refracao-sismica</loc>
-    <lastmod>2026-04-05</lastmod>
+    <loc>https://anapolis.sondajespt.org/colunas-brita/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/injecoes</loc>
-    <lastmod>2026-04-14</lastmod>
+    <loc>https://anapolis.sondajespt.org/densidade-cone-areia/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/cbr-viario</loc>
-    <lastmod>2026-04-05</lastmod>
+    <loc>https://anapolis.sondajespt.org/ensaio-cpt/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/pavimento-flexivel</loc>
-    <lastmod>2026-03-23</lastmod>
+    <loc>https://anapolis.sondajespt.org/ensaios-proctor/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/densidade-cone-areia</loc>
-    <lastmod>2026-04-24</lastmod>
+    <loc>https://anapolis.sondajespt.org/escavacoes/</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/resistividade</loc>
-    <lastmod>2026-04-21</lastmod>
+    <loc>https://anapolis.sondajespt.org/escavacoes-profundas/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/limites-atterberg</loc>
-    <lastmod>2026-04-16</lastmod>
+    <loc>https://anapolis.sondajespt.org/estabilidade-taludes/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/isolamento-sismico</loc>
-    <lastmod>2026-03-15</lastmod>
+    <loc>https://anapolis.sondajespt.org/estacas/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/ancoragens</loc>
-    <lastmod>2026-04-22</lastmod>
+    <loc>https://anapolis.sondajespt.org/fundacoes/</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/masw</loc>
-    <lastmod>2026-03-01</lastmod>
+    <loc>https://anapolis.sondajespt.org/geotecnia-viaria/</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/sapatas</loc>
-    <lastmod>2026-03-31</lastmod>
+    <loc>https://anapolis.sondajespt.org/granulometria/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/colunas-brita</loc>
-    <lastmod>2026-03-26</lastmod>
+    <loc>https://anapolis.sondajespt.org/injecoes/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/ensaios-proctor</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://anapolis.sondajespt.org/investigacao/</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/vibrocompactacao</loc>
-    <lastmod>2026-02-25</lastmod>
+    <loc>https://anapolis.sondajespt.org/isolamento-sismico/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/pocos-inspecao</loc>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://anapolis.sondajespt.org/lab-in-situ/</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/ensaio-cpt</loc>
-    <lastmod>2026-04-02</lastmod>
+    <loc>https://anapolis.sondajespt.org/laboratorio/</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/tuneis-solo-mole</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://anapolis.sondajespt.org/limites-atterberg/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/granulometria</loc>
-    <lastmod>2026-04-06</lastmod>
+    <loc>https://anapolis.sondajespt.org/liquefacao/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/estacas</loc>
-    <lastmod>2026-04-03</lastmod>
+    <loc>https://anapolis.sondajespt.org/masw/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/triaxial</loc>
-    <lastmod>2026-03-23</lastmod>
+    <loc>https://anapolis.sondajespt.org/melhoramento/</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/escavacoes-profundas</loc>
-    <lastmod>2026-04-03</lastmod>
+    <loc>https://anapolis.sondajespt.org/microzoneamento-sismico/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/estabilidade-taludes</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://anapolis.sondajespt.org/monitoramento-escavacoes/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/liquefacao</loc>
-    <lastmod>2026-04-20</lastmod>
+    <loc>https://anapolis.sondajespt.org/muros-contencao/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/pavimento-rigido</loc>
-    <lastmod>2026-04-06</lastmod>
+    <loc>https://anapolis.sondajespt.org/pavimento-flexivel/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/sondagens-spt</loc>
-    <lastmod>2026-04-17</lastmod>
+    <loc>https://anapolis.sondajespt.org/pavimento-rigido/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/monitoramento-escavacoes</loc>
-    <lastmod>2026-03-03</lastmod>
+    <loc>https://anapolis.sondajespt.org/permeabilidade-in-situ/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/permeabilidade-in-situ</loc>
-    <lastmod>2026-03-21</lastmod>
+    <loc>https://anapolis.sondajespt.org/pocos-inspecao/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/radiers</loc>
-    <lastmod>2026-04-03</lastmod>
+    <loc>https://anapolis.sondajespt.org/radiers/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/contato</loc>
-    <lastmod>2026-04-23</lastmod>
+    <loc>https://anapolis.sondajespt.org/refracao-sismica/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anapolis.sondajespt.org/resistividade/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anapolis.sondajespt.org/sapatas/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anapolis.sondajespt.org/sismica/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anapolis.sondajespt.org/sitemap/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anapolis.sondajespt.org/privacidade</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://anapolis.sondajespt.org/sondagens-spt/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anapolis.sondajespt.org/taludes/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anapolis.sondajespt.org/triaxial/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anapolis.sondajespt.org/tuneis-solo-mole/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anapolis.sondajespt.org/vibrocompactacao/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
